@@ -1,0 +1,22 @@
+[
+    {
+        "name":"html",
+        "image":"app/image/html.png"
+    },
+    {
+        "name":"css",
+        "image":"app/image/css.png"
+    },
+    {
+        "name":"javascript",
+        "image":"app/image/javascript.png"
+    },
+    {
+        "name":"node-js",
+        "image":"app/image/node-js.png"
+    },
+    {
+        "name":"SQL",
+        "image":"app/image/database.png"
+    }
+]

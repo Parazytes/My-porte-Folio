@@ -1,0 +1,21 @@
+<%- include('./partials/header')  %>
+
+<%- include('./partials/nav') %>
+
+
+<article class="div5">
+    <h1> Mes skills</h1>
+
+    <ul class="skills_list">
+
+        <!-- Boucle for each liste Skills -->
+        <% skillsList.forEach(element => { %>
+           <li class ="skills_tag"><img src="<%=element.image %>" alt="<%=element.name%>">
+        </li>
+        <% }); %>
+
+
+    </ul>
+</article>
+
+<%- include('./partials/footer')  %>

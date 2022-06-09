@@ -1,0 +1,65 @@
+<%- include('./partials/header')  %>
+
+
+
+<%- include('./partials/nav') %>
+
+<!-- Profil Page -->
+<article class="div5">
+
+
+    <span class="Profile-Picture">
+        <img src="app/image/FB_IMG_1566467879505.jpg" alt="ProfilPicture">
+    </span>
+    <section class="informations">
+        <h1>Presentation</h1>
+        
+        <h2 class="Informations_title"> Nom</h2>
+
+        <p class="Informations_answer"><%= me.nom %> </p>
+
+        <h2 class="Informations_title"> Prenom</h2>
+
+        <p class="Informations_answer"><%= me.prenom %> </p>
+
+        <h2 class="Informations_title"> Age</h2>
+
+        <p class="Informations_answer"><%= me.age %> </p>
+
+        <h2 class="Informations_title"> Localisation</h2>
+
+        <p class="Informations_answer">
+            <img src="app/image/marqueur.png" alt="Marqueur GPS" > <%= me.localisation %> </p>
+
+    </section>
+
+    <section class=" hobbies">
+        <div>
+            <h2>hobbies</h2>
+            <div class="hobbies_container">
+                <span class="hobbies_tag">
+                    <img src="app/image/imprimante-3d.png" alt="Illustration Impression 3D">
+                </span>
+                <span class="hobbies_tag">
+                    <img src="app/image/border-collie.png" alt="Illustration Border Collie">
+                </span>
+                <span class="hobbies_tag">
+                    <img src="app/image/diy.png" alt="Illustration DIY">
+                </span>
+                <span class="hobbies_tag">
+                    <img src="app/image/joystick.png" alt="Illustration Manette Jeux Video">
+                </span>
+                <span class="hobbies_tag">
+                    <img src="app/image/moto.png" alt="Illustration Moto">
+                </span>
+                <span class="hobbies_tag">
+                    <img src="app/image/tennis.gif" alt="GIF Tennis">
+                </span>
+            </div>
+        </div>
+    </section>
+
+</article>
+
+
+<%- include('./partials/footer')  %>

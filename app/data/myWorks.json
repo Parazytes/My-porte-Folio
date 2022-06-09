@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Velenjak",
+        "poste":"Barman",
+        "beginDate":2020,
+        "endDate":2022
+    },
+    {
+        "name": "L'ancre",
+        "poste":"Barman",
+        "beginDate":2018,
+        "endDate":2019
+    },
+    {
+        "name": "Traiteur/evenementiel",
+        "poste":"Chef de Rang",
+        "beginDate":2016,
+        "endDate":2019
+    },
+    {
+        "name": "CIM",
+        "poste":"",
+        "beginDate":2012,
+        "endDate":2014
+    }
+]

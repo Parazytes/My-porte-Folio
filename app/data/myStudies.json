@@ -1,0 +1,21 @@
+[
+    {
+        "etablissement":"Oclock",
+        "Diplome":"Formation Dev Web",
+        "beginDate":2022,
+        "endDate":"false"
+    },
+  
+    {
+        "etablissement":"ESSYM - Rambouillet",
+        "Diplome":"BTS CGO",
+        "beginDate":2012,
+        "endDate":2014
+    },
+    {
+        "etablissement":"Lycée Rotrou",
+        "Diplome":"BAC STG",
+        "beginDate":2009,
+        "endDate":2012
+    }
+]
